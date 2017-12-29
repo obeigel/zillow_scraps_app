@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #ecf0f1;
+}
+
+.mdc-toolbar__row {
+    padding: 0 48px;
+    height: 48px;
+    background-color: #0063B1;
+}
+
+.mdc-toolbar__section {
+    align-items: center;
+}
+
+.mdc-tab-bar {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.content main:first-child {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.mdc-card {
+    height: 100%;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.mdc-card__actions {
+    align-self: center;
+}
+
+.mdc-card__horizontal-block {
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.mdc-card__primary .mdc-card__title--large {
+    margin-bottom: .5em;
+    padding-top: 0;
+}
+
+.mdc-card__subtitle {
+    margin-bottom: .5em;
+}
+
+.my-form .mdc-card {
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width: auto;
+}
+
+.chart-bar {
+    padding: 20px;
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+
+.joblinkAdd {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 10px;
+    word-wrap: 'break-word';
+    white-space: nowrap;
+}
+.button-edit {
+    color: '#0063B1';
+}
+
+.button-delete {
+    color: '#D13438';
+}
+
+#login {
+    margin: 3rem auto;
+}
+
+#login form .mdc-textfield,
+#login form .mdc-button {
+    width: 100%;
+    display: block;
+}
+
+#login form .mdc-textfield {
+    margin-bottom: 1rem;
+}
+
+/* Book */
+#book .mdc-card {
+    margin: 16px;
+}
+
+/* Not Found */
+#not-found {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#not-found .material-icons {
+    font-size: 4rem;
+}
